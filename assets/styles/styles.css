@@ -1,9 +1,13 @@
 
 .body {
+    width: 1440px;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    visibility: hidden;
+    background: rgb(245, 245, 245);
+
 }
 
 .dm-serif-display-regular {
@@ -11,3 +15,113 @@
     font-weight: 400;
     font-style: normal;
 }
+.header {
+    width: 1440px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+        width: 34px;
+        height: 34px;
+    }
+    p {
+        font-family: "DM Serif Display";
+        font-size: 34px;
+        font-weight: 200;
+        color: rgb(41, 47, 54);
+        margin: 0px 10px;
+    }
+}
+
+.header__navbar {
+    color: rgb(41, 47, 54);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-align: left;
+
+    a {
+        text-decoration: none;
+        color: rgb(41, 47, 54);
+        margin: 0px 20px;
+
+    }
+
+    a:hover {
+        color: rgb(205, 162, 116);
+    }
+}
+
+.create-your-dream {
+    width: 1440px;
+    height: 831px;
+    background-image: url(../images/img_section1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.create-your-dream__content {
+    width: 600px;
+    height: 386px;
+    padding-top: 188px;
+    padding-left: 120px;
+}
+
+.create-your-dream__title {
+    font-family: DM Serif Display;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: rgb(41, 47, 54);
+    margin: 0;
+}
+
+.create-your-dream__text {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: left;
+    margin-top: 19px;
+    margin-bottom: 35px;
+}
+
+.create-your-dream__btn {
+    width: 207px;
+    height: 71px;
+    box-sizing: border-box;
+    border: 2px solid rgb(41, 47, 54);
+    border-radius: 18px; 
+    background: rgb(41, 47, 54);
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+}
+
+
