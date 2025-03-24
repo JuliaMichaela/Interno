@@ -70,6 +70,13 @@
     }
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .create-your-dream {
     width: 1440px;
     height: 831px;
@@ -124,4 +131,120 @@
     letter-spacing: 0.72px;
 }
 
+.interior__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.interior__items {
+    width: 400px;
+    height: 395px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 75px 41px 70px 42px;
+
+    h3 {
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: 0.22px;
+        text-align: center;
+    }
+
+    p {
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        text-align: center;
+        margin-bottom: 68px;
+    }
+
+    a {
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.36px;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+}
+
+.challenging-designs {
+    display: flex;
+}
+
+.challenging-designs__content {
+    margin-top: 27px;
+
+    h2{
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 65px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+
+    p {
+        width: 515px;
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+}
+.challenging-designs__phone {
+    display: flex;
+}
+.challenging-designs__img {
+    width: 93px;
+    height: 93px;
+    border-radius: 100px; 
+    background: rgb(244, 240, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.challenging-designs__text {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    p {
+        margin: 0px;
+    }
+}
+.challenging-designs__btn {
+    width: 263px;
+    height: 71px;
+    box-sizing: border-box;
+    border: 2px solid rgb(41, 47, 54);
+    border-radius: 18px; 
+    background: rgb(41, 47, 54);
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    margin-top: 45px;
+}
