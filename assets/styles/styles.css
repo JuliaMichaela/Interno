@@ -181,10 +181,13 @@
 
 .challenging-designs {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
 }
 
 .challenging-designs__content {
     margin-top: 27px;
+    width: 592px;
 
     h2{
         color: rgb(41, 47, 54);
@@ -209,6 +212,7 @@
 }
 .challenging-designs__phone {
     display: flex;
+    margin-top: 40px;
 }
 .challenging-designs__img {
     width: 93px;
@@ -218,6 +222,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 .challenging-designs__text {
     color: rgb(77, 80, 83);
@@ -226,12 +231,8 @@
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.22px;
-    text-align: left;
-    margin-left: 20px;
     margin-top: 5px;
-    p {
-        margin: 0px;
-    }
+    margin-left: 15px;
 }
 .challenging-designs__btn {
     width: 263px;
@@ -247,4 +248,200 @@
     line-height: 27px;
     letter-spacing: 0.72px;
     margin-top: 45px;
+}
+
+.about-interno {
+    height: 675px;
+    border-radius: 70px; 
+    background: rgb(244, 240, 236);
+
+    h2 {
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 58.5px;
+        letter-spacing: 0.22px;
+        text-align: center;
+        margin-top: 102px;
+    }
+}
+
+.about-interno__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 18px; */
+    justify-items: center;
+}
+
+.about-interno__item {
+    display: grid;
+    justify-content: center;
+    width: 354px;
+    height: 287px;
+    border-radius: 30px; 
+    background: rgb(255, 255, 255);
+}
+
+.about-interno__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.about-interno__name {
+    margin: 0px;
+    h3{
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 37.5px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+    p{
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+}
+
+.about-interno__text {
+    display: inline-block;
+    width: 244px;
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    text-align: left;
+}
+.logos {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.recent-project {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.recent-project__heading {
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 47px;
+        font-weight: 400;
+        line-height: 62.4px;
+        letter-spacing: 0.22px;
+        margin: 0px;
+}
+.recent-project__text {
+        display: inline-block;
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+}
+
+.recent-project__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.recent-project__name {
+    display: grid;
+    grid-template-columns: auto 100px ;
+    margin-top: 25px;
+
+
+}
+.recent-project__title {
+    margin: 0px;
+    h3{
+        margin: 0px;
+        color: rgb(41, 47, 54);
+        font-family: DM Serif Display;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 37.5px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+    p {
+        margin: 0px 0px 60px 0px;
+        color: rgb(77, 80, 83);
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+}
+
+.recent-project__btn { 
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.statistics {
+    background: rgb(244, 240, 236);
+    width: 1440px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics__content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.statistics__item {
+    width: 288px;
+    height: 195px;
+    border-right:rgb(205, 162, 116) solid 1px ;
+}
+
+.statistics__number {
+    color: rgb(205, 162, 116);
+    font-family: DM Serif Display;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+
+.statistics__text {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    text-align: center;
+}
+.bordernone {
+    border: none;
 }
